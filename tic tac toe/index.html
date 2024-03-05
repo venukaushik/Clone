@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="favicon/favicon-96x96.png"
+    />
+
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <nav>
+      <a href="">Tic Tac Toe</a>
+    </nav>
+    <div class="container">
+      <div class="info">
+        <h2>Welcome to Tic Tac Toe</h2>
+        <p class="turn">Turn for X</p>
+        <button type="reset" class="reset glow-on-hover" id="reset">
+          Reset
+        </button>
+        <div class="img">
+          <img src="excited.gif" alt="winning gif" />
+        </div>
+        <div class="img2">
+          <img src="draw.gif" alt="draw" />
+        </div>
+      </div>
+      <div class="gameContainer">
+        <div class="game">
+          <div class="line"></div>
+          <div class="box br-0 bt-0 bl-0"><span class="input"></span></div>
+          <div class="box br-0 bt-0"><span class="input"></span></div>
+          <div class="box bt-0 br-0"><span class="input"></span></div>
+          <div class="box bt-0 br-0 bl-0"><span class="input"></span></div>
+          <div class="box bt-0 br-0"><span class="input"></span></div>
+          <div class="box bt-0 br-0"><span class="input"></span></div>
+          <div class="box bt-0 br-0 bl-0 bb-0">
+            <span class="input"></span>
+          </div>
+          <div class="box bt-0 br-0 bb-0"><span class="input"></span></div>
+          <div class="box bt-0 br-0 bb-0"><span class="input"></span></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
